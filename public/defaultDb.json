@@ -148,19 +148,6 @@
   },
   {
     "core_props": {
-      "id": "345cb937c072a499",
-      "date_updated": ["1671824354admin"],
-      "label": "User"
-    },
-    "label_props": {
-      "strName": "Jenner Hanni",
-      "strSlug": "jenner",
-      "radioUserRole": "archivist",
-      "relLists": []
-    }
-  },
-  {
-    "core_props": {
       "id": "b8b7e5d9632de249",
       "date_updated": ["1671824354admin"],
       "label": "User"
@@ -169,67 +156,6 @@
       "strName": "Admin",
       "strSlug": "admin",
       "radioUserRole": "admin",
-      "relLists": []
-    }
-  },
-  {
-    "core_props": {
-      "id": "21e0cd7d2c359acf",
-      "date_updated": ["1671824354admin"],
-      "label": "Item"
-    },
-    "label_props": {
-      "strTitle": "Postcard - No. 40 China Peak from Eagle Cap, Wallowa Lake Wonderland, Oregon",
-      "strBriefDescription": "Two pages showing the front and back of an unused postcard.",
-      "strFullDescription": "Two pages showing the front and back of an unused postcard.",
-      "strInternalNote": "",
-
-      "radioDCMIType": "Still Image",
-      "radioWHCType": "Postcard", 
-
-      "radioPrivacyStatus": "Unassessed",
-      "strPrivacyReason": "",
-
-      "radioRightsStatus": "Unassessed",
-      "strRightsNote": "",
-
-      "boolHasPhysicalObject": true,
-      "radioPhysicalLocation": "Unassigned",
-      "strSpecificLocation": "Binder A",
-
-      "boolHasDigitalObject": false,
-      "listDigitalFiles": [],
-
-      "relAcquisitionRecords": [],
-
-      "relRelatedLists": [],
-      "relContainsItems": [],
-      "relContainedByItems": [],
-      "relRelatedItems": [],
-      "relRelatedKeywords": ["858fbf66626f61d4"],
-      "relMaker": [],
-      "relDateMade": [],
-      "relControllingInstitution": [],
-
-      "strProductionNotes": "",
-      "strMeasurements": "",
-      "relPlaceMade": [],
-      "relMediumMaterials": [],
-      "strInscriptionsMarks": "",
-      "strLanguage": "English"
-    }
-  },
-  {
-    "core_props": {
-      "id": "858fbf66626f61d4",
-      "date_updated": ["1671824354admin"],
-      "label": "Keyword"
-    },
-    "label_props": {
-      "radioKeywordType": "Topic",
-      "strText": "China Peak",
-      "strDescription": "China Cap is a prominent peak located in the southwest corner of the Eagle Cap Wilderness.",
-      "relItems": ["21e0cd7d2c359acf"],
       "relLists": []
     }
   }

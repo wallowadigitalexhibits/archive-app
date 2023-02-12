@@ -32,12 +32,12 @@
   },
   "sites": {
     "whc": {
-      "title": "Wallowa History Center Digital Archive",
-      "url": "http://wallowahistoryarchive.org",
-      "deploy_server_name": "linode",
-      "slug": "whc",
+      "title": "",
+      "url": "",
+      "deploy_server_name": "",
+      "slug": "",
       "keys": [
-        "whc@linode"
+        ""
       ],
       "users": [
         "admin"
