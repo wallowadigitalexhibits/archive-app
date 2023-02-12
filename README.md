@@ -5,7 +5,13 @@ Organizing small museum collections on a property graph database with Electron, 
 
 ## Usage
 
-For development:
+For development, first clone and link the <a href="https://github.com/wallowadigitalexhibits/graphletjs">GraphletJS</a> library. After making the library available by running `npm link` in its folder, do the same in the folder with this project:
+
+```
+npm link @wallowadigitalexhibits/graphletjs
+```
+
+Then start the development server.
 
 ```
 npm run dev
