@@ -1,0 +1,236 @@
+[
+  {  
+    "core_props": {
+      "id": "73a40bbe23dba38c",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "Label",
+      "strLabelDescription": "A capitalized single word...",
+      "relRelatedNodes": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "ba424dd1667e9a8a",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "Item",
+      "strLabelDescription": "A unique physical object or a digital file that exists in our collection.",
+
+      "strTitle": "",
+      "strBriefDescription": "",
+      "strFullDescription": "",
+      "strInternalNote": "",
+
+      "radioDCMIType": "",
+      "radioWHCType": "", 
+
+      "radioPrivacyStatus": "Unassessed",
+      "strPrivacyReason": "",
+
+      "radioRightsStatus": "Unassessed",
+      "strRightsNote": "",
+
+      "boolHasPhysicalObject": false,
+      "radioPhysicalLocation": "",
+      "strSpecificLocation": "",
+
+      "boolHasDigitalObject": false,
+      "listDigitalFiles": [],
+
+      "relAcquisitionRecords": [],
+
+      "relRelatedLists": [],
+      "relContainsItems": [],
+      "relContainedByItems": [],
+      "relRelatedItems": [],
+      "relRelatedKeywords": [],
+      "relMaker": [],
+      "relDateMade": [],
+      "relControllingInstitution": [],
+
+      "strProductionNotes": "",
+      "strMeasurements": "",
+      "relPlaceMade": [],
+      "relMediumMaterials": [],
+      "strInscriptionsMarks": "",
+      "strLanguage": "English"
+    }
+  },
+  {
+    "core_props": {
+      "id": "3ab7794d2984d383",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "ItemAcquisitionRecord",
+      "strLabelDescription": "Describes a transfer, either acquisition or deacquisition, of an item in the collection.",
+
+      "relItem": [],
+      "radioAcquisitionRecordType": "",
+      "strProvenanceDetails": "",
+      "relProvenanceEntity": [],
+      "strProvenancePlace": "",
+      "strPrice": "",
+      "strCondition": "",
+      "strDate": ""
+    }
+  },
+  {
+    "core_props": {
+      "id": "046a76986f7022bf",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "Keyword",
+      "strLabelDescription": "A capitalized single word describing the properties of a type of item.",
+
+      "radioKeywordType": "Unassigned",
+      "strText": "",
+      "strDescription": "",
+      "relItems": [],
+      "relLists": []
+    }
+},
+{
+    "core_props": {
+      "id": "ffc54abb6af6e42f",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "List",
+      "strLabelDescription": "A list of items, related to a user.",
+
+      "strTitle": "",
+      "strDescription": "",
+      "radioPrivacyStatus": "",
+      "strPrivacyReason": "",
+      "relItems": [],
+      "relLists": [],
+      "relKeywords": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "358a32a293366dda",
+      "date_updated": ["1671824354admin"],
+      "label": "Label"
+    },
+    "label_props": {
+      "strLabel": "User",
+      "strLabelDescription": "A user account. Users can access restricted features if they have permission. All users can track lists.",
+
+      "strName": "",
+      "strSlug": "",
+      "radioUserRole": "",
+      "relLists": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "2f462102d0c1d2a5",
+      "date_updated": ["1671824354admin"],
+      "label": "User"
+    },
+    "label_props": {
+      "strName": "Researcher",
+      "strSlug": "researcher",
+      "radioUserRole": "researcher",
+      "relLists": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "345cb937c072a499",
+      "date_updated": ["1671824354admin"],
+      "label": "User"
+    },
+    "label_props": {
+      "strName": "Jenner Hanni",
+      "strSlug": "jenner",
+      "radioUserRole": "archivist",
+      "relLists": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "b8b7e5d9632de249",
+      "date_updated": ["1671824354admin"],
+      "label": "User"
+    },
+    "label_props": {
+      "strName": "Admin",
+      "strSlug": "admin",
+      "radioUserRole": "admin",
+      "relLists": []
+    }
+  },
+  {
+    "core_props": {
+      "id": "21e0cd7d2c359acf",
+      "date_updated": ["1671824354admin"],
+      "label": "Item"
+    },
+    "label_props": {
+      "strTitle": "Postcard - No. 40 China Peak from Eagle Cap, Wallowa Lake Wonderland, Oregon",
+      "strBriefDescription": "Two pages showing the front and back of an unused postcard.",
+      "strFullDescription": "Two pages showing the front and back of an unused postcard.",
+      "strInternalNote": "",
+
+      "radioDCMIType": "Still Image",
+      "radioWHCType": "Postcard", 
+
+      "radioPrivacyStatus": "Unassessed",
+      "strPrivacyReason": "",
+
+      "radioRightsStatus": "Unassessed",
+      "strRightsNote": "",
+
+      "boolHasPhysicalObject": true,
+      "radioPhysicalLocation": "Unassigned",
+      "strSpecificLocation": "Binder A",
+
+      "boolHasDigitalObject": false,
+      "listDigitalFiles": [],
+
+      "relAcquisitionRecords": [],
+
+      "relRelatedLists": [],
+      "relContainsItems": [],
+      "relContainedByItems": [],
+      "relRelatedItems": [],
+      "relRelatedKeywords": ["858fbf66626f61d4"],
+      "relMaker": [],
+      "relDateMade": [],
+      "relControllingInstitution": [],
+
+      "strProductionNotes": "",
+      "strMeasurements": "",
+      "relPlaceMade": [],
+      "relMediumMaterials": [],
+      "strInscriptionsMarks": "",
+      "strLanguage": "English"
+    }
+  },
+  {
+    "core_props": {
+      "id": "858fbf66626f61d4",
+      "date_updated": ["1671824354admin"],
+      "label": "Keyword"
+    },
+    "label_props": {
+      "radioKeywordType": "Topic",
+      "strText": "China Peak",
+      "strDescription": "China Cap is a prominent peak located in the southwest corner of the Eagle Cap Wilderness.",
+      "relItems": ["21e0cd7d2c359acf"],
+      "relLists": []
+    }
+  }
+]

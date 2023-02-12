@@ -1,0 +1,139 @@
+{
+  "backups": {
+    "interval": "",
+    "command": ""
+  },
+  "paths": {
+    "db_path": {
+      "text": "Database File",
+      "val": "",
+      "slug": "db_path"
+    },
+    "forms_path": {
+      "text": "Forms Folder",
+      "val": "",
+      "slug": "forms_path"
+    },
+    "scans_path": {
+      "text": "Scans Folder",
+      "val": "",
+      "slug": "scans_path"
+    },
+    "keys_path": {
+      "text": "Keys Folder",
+      "val": "",
+      "slug": "keys_path"
+    },
+    "inbox_path": {
+      "text": "Inbox Folder",
+      "val": "",
+      "slug": "inbox_path"
+    }
+  },
+  "sites": {
+    "whc": {
+      "title": "Wallowa History Center Digital Archive",
+      "url": "http://wallowahistoryarchive.org",
+      "deploy_server_name": "linode",
+      "slug": "whc",
+      "keys": [
+        "whc@linode"
+      ],
+      "users": [
+        "admin"
+      ]
+    }
+  },
+  "org": {
+    "org_name": {
+      "text": "Organization Name",
+      "val": "",
+      "slug": "org_name"
+    },
+    "org_email": {
+      "text": "Organization Email",
+      "val": "",
+      "slug": "org_email"
+    }
+  },
+  "radio_option_sets": {
+    "DCMIType": [
+      "Collection",
+      "Dataset",
+      "Interactive Resource",
+      "Moving Image",
+      "Physical Object",
+      "Software",
+      "Sound",
+      "Still Image",
+      "Text"
+    ],
+    "WHCType": [
+      "Physical Exhibit",
+      "Digital Exhibit",
+      "Newspaper",
+      "Magazine",
+      "Collection",
+      "Unsorted Box",
+      "Dataset",
+      "Video",
+      "Physical Object",
+      "Exhibit Panel",
+      "Poster Display",
+      "Software",
+      "Music",
+      "Oral History",
+      "Audio",
+      "Photograph",
+      "Postcard",
+      "Painting",
+      "Map",
+      "Drawing",
+      "Newspaper Article",
+      "Magazine Article",
+      "Pamphlet",
+      "Book",
+      "Ledger",
+      "Letter",
+      "Document",
+      "Meeting Minutes",
+      "Dissertation",
+      "Email",
+      "Caption",
+      "Excerpt",
+      "Portfolio Book",
+      "Transcript",
+      "Yearbook",
+      "Receipt"
+    ],
+    "KeywordType": [
+      "Topic",
+      "Person",
+      "Group",
+      "Place",
+      "Date",
+      "Medium",
+      "Event"
+    ],
+    "PrivacyStatus": [
+      "Public",
+      "Private",
+      "Confidential",
+      "Unassessed"
+    ],
+    "ItemPhysicalLocation": [
+      "Unassigned"
+    ],
+    "RightsStatus": [
+      "Full",
+      "Restricted",
+      "Unassessed",
+      "None"
+    ],
+    "UserRole": [
+      "researcher",
+      "archivist", 
+      "admin"
+    ]
+  }
+}
