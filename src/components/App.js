@@ -24,6 +24,7 @@ import ListNode from './nodes/ListNode.js'
 import UserNode from './nodes/UserNode.js'
 
 import FilteredList from './elements/FilteredList'
+import { wait } from '@testing-library/react';
 
 const { ipcRenderer } = window.require('electron')
 
@@ -211,13 +212,18 @@ class App extends Component {
   receiveGotConfig = (message) => {
     console.log('got-config', message)
     if (message['status'] === 'SUCCESS') {
-      if (this.checkIfAllPathsAreSet(message['payload']['paths'])) {
-        this.setState({ config: message['payload'],
+
+      let payload = message['payload'][0]   // TODO: change this to prompt 
+                                            // for which profile if there's more than one
+                                            // also check line 281 in electron.js
+
+      if (this.checkIfAllPathsAreSet(payload['paths'])) {
+        this.setState({ config: payload, 
                         config_loaded: true })
         this.getDb()
 
       } else {
-        this.setState({ config: message['payload'],
+        this.setState({ config: payload,
                         config_loaded: true,
                         show_initial_config_modal: true })
       }
@@ -262,7 +268,7 @@ class App extends Component {
         console.log('SUCCESS')
         this.setState({ data: message['payload'],
                         data_loaded: true })
-}
+    }
     console.log('message', message)
   }
 

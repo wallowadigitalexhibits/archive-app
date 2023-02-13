@@ -39,6 +39,9 @@
     "electronmon": "^2.0.1",
     "wait-on": "^6.0.0"
   },
+  "electronmon": {
+    "patterns": ["!data*/**"]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

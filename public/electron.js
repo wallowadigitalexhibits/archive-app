@@ -168,7 +168,7 @@ function getDbFromDbFilePath(message) {
       //   create the Item node if it does not exist
       //   add an object to listDigitalFiles
       let configData = fs.readFileSync(configFilePath, 'utf8')
-      let scansPath = JSON.parse(configData)['paths']['scans_path']['val']
+      let scansPath = JSON.parse(configData)[0]['paths']['scans_path']['val']
       let thumbsPath = scansPath + '/Thumbs'
 
       fs.readdirSync(scansPath).forEach(filename => {
@@ -274,11 +274,10 @@ ipcMain.on('get-config', (event) => {
 
   let message = {}
   message['status'] = 'INCOMPLETE'
-  message['payload'] = {}
+  message['payload'] = [{}]
 
   message = getConfigFromFilePath(message)
-
-  dbFilePath = message['payload']['paths']['db_path']['val']
+  dbFilePath = message['payload'][0]['paths']['db_path']['val']
 
   mainWindow.webContents.send('got-config', message)
 })
@@ -302,10 +301,9 @@ ipcMain.on('get-db', (event) => {
 
   let message = {}
   message['status'] = 'INCOMPLETE'
-  message['payload'] = {}
+  message['payload'] = [{}]
 
   message = getDbFromDbFilePath(message)
-
   mainWindow.webContents.send('got-db', message)
 })
 

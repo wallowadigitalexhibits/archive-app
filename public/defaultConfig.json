@@ -1,4 +1,4 @@
-{
+[{
   "backups": {
     "interval": "",
     "command": ""
@@ -136,4 +136,4 @@
       "admin"
     ]
   }
-}
+}]
